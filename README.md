@@ -80,7 +80,7 @@
 <tr><td>Price<td>dword<td>Базовая цена предмета
 <tr><td>Weight<td>dword<td>Вес предмета, умноженый на 10
 <tr><td>-<td>qword<td>Назначение поля не известно. Значения кореллируют с типом материала.
-<tr><td>-<td rowspan=5>dword<td rowspan=5>Назначение этих полей неизвестно.
+<tr><td>-<td rowspan=5>dword<td rowspan=5>Назначение этих полей не известно.
 <tr><td>-
 <tr><td>-
 <tr><td>-
