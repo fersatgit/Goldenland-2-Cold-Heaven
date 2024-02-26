@@ -14,6 +14,24 @@
 <tr><td>lo<td>byte<td>Младший байт
 </table></details>
 
+<details><summary>PAK (package)</summary>
+Файлы с расширением <b>pak</b> - это игровые архивы
+<table><tr><th>Имя поля<th>тип<th>описание
+<tr><td>magic<td>qword<td>Должно содержать текст "PAK " и 4 нулевых байта
+<tr><td>fileCount<td>dword<td>Количество файлов в архиве
+<tr><td>FAT<td>массив структур<td>Файловая таблица. Массив структур
+<table><tr><th>Имя поля<th>тип<th>описание
+<tr><td>name<td>string<td>Имя файла
+<tr><td>size<td>dword<td>Размер файла в архиве (сжатый размер)
+<tr><td>offset<td>dword<td>Смещение от начала файла
+</table>
+</table>
+Поле <b>offset</b> указывает на такую структуру
+<table><tr><th>Имя поля<th>тип<th>описание
+<tr><td>compressed<td>dword<td>Если равно 0 то файл сжат при помощи <b>zlib</b> (следом за этим полем идёт размер несжатых данных и поток <b>zlib</b>)
+<tr><td>data<td>-<td>Сжатые либо несжатые данные
+</table></details>
+
 <details><summary>SDB (string data base)</summary>
 В файлах с расширением <b>sdb</b> хранятся пары значений индекс-строка. Если первые 4 байта не содержат текст "SDB ", то файл зашифрован (к текстовым данным применено исключающее или со значением 0xAA).
 <table><tr><th>Имя поля<th>тип<th>описание
