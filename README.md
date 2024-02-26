@@ -26,7 +26,7 @@
 </table></div></details>
 
 <details><summary>ITM (item)</summary><div>
-В файлах с расширением <b>itm</b> хранятся итформация о предмете инвентаря. Имя файла - это идентификатор предмета (<b>itemId</b>). 
+В файлах с расширением <b>itm</b> хранится итформация о предмете инвентаря. Имя файла - это идентификатор предмета (<b>itemId</b>). 
 <table><tr><th>Имя поля<th>тип<th>описание
 <tr><td>magic<td>dword<td>Равно 4
 <tr><td>DescriptionID<td>dword<td>Идентификатор строки описания (хранится в файле "sdb\items\descriptions.sdb")
