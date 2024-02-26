@@ -1,6 +1,6 @@
 <h1>Форматы файлов</h1>
 
-<details><summary>типы данных</summary><div>
+<details><summary>типы данных</summary>
 <h3>string</h3>
 Все строковые значения представлены этим типом. В файлах могут встречаться строки нулевой длины.
 <table><tr><th>Имя поля<th>тип<th>описание
@@ -12,9 +12,9 @@
 <table><tr><th>Имя поля<th>тип<th>описание
 <tr><td>hi<td>byte<td>Старший байт
 <tr><td>lo<td>byte<td>Младший байт
-</table></div></details>
+</table></details>
 
-<details><summary>SDB (string data base)</summary><div>
+<details><summary>SDB (string data base)</summary>
 В файлах с расширением <b>sdb</b> хранятся пары значений индекс-строка. Если первые 4 байта не содержат текст "SDB ", то файл зашифрован (к текстовым данным применено исключающее или со значением 0xAA).
 <table><tr><th>Имя поля<th>тип<th>описание
 <tr><td>signature<td>dword<td>Должно содержать текст "SDB ", если это не так - поле отсутствует
@@ -22,10 +22,9 @@
 <table><tr><th>Имя поля<th>тип<th>описание
 <tr><td>id<td>dword<td>Идентификатор строки
 <tr><td>value<td>string<td>Непосредственно строка. Если поле <b>signature</b> отсутствует в файле, то поле <b>text</b> структуры <b>string</b> поксорено ключом <b>0XAA</b> .
-</table>
-</table></div></details>
+</table></table></details>
 
-<h2><summary>ITM (item)</h2>
+<details><summary>ITM (item)</summary>
 В файлах с расширением <b>itm</b> хранится итформация о предмете инвентаря. Имя файла - это идентификатор предмета (<b>itemId</b>). 
 <table><tr><th>Имя поля<th>тип<th>описание
 <tr><td>Magic<td>dword<td>Всегда равно 4
@@ -193,4 +192,4 @@
 <li>Предназначение не известно. Этот флаг встречается на эффектах в предметах для NPC
 <tr><td>Duration<td>time<td>Время действия эффекта в ходах (смотри описание типа time) 
 <tr><td>Delay<td>time<td>Задержка действия эффекта в ходах (смотри описание типа time)
-</table>/table>
+</table></table></details>
