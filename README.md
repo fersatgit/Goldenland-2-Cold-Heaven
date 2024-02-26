@@ -25,7 +25,7 @@
 </table>
 </table></div></details>
 
-<details><summary>ITM (item)</summary><div>
+<h2><summary>ITM (item)</h2>
 В файлах с расширением <b>itm</b> хранится итформация о предмете инвентаря. Имя файла - это идентификатор предмета (<b>itemId</b>). 
 <table><tr><th>Имя поля<th>тип<th>описание
 <tr><td>Magic<td>dword<td>Всегда равно 4
@@ -193,5 +193,4 @@
 <li>Предназначение не известно. Этот флаг встречается на эффектах в предметах для NPC
 <tr><td>Duration<td>time<td>Время действия эффекта в ходах (смотри описание типа time) 
 <tr><td>Delay<td>time<td>Задержка действия эффекта в ходах (смотри описание типа time)
-</table>
-</table></div></details>
+</table>/table>
