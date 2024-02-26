@@ -1,11 +1,3 @@
-<style>
-div{padding-left:1em}
-details{padding-left:1em}
-summary{font-weight:700;font-size:150%}
-summary:hover{color:#ff3200}
-td{vertical-align:top}
-</style>
-
 <h1>Форматы файлов</h1>
 
 <details><summary>типы данных</summary><div>
