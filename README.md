@@ -103,13 +103,7 @@
 <tr><td>-
 <tr><td>-
 <tr><td>Material<td>dword<td>Индекс строки с названием материала (хранится в файле "sdb\items\materials.sdb"). Если равно -1, то считается, что материал не задан.
-<tr><td>Shell<td>string<td>Идентификатор снаряда для отображения при стрельбе/метании. Это поле присутствует только при установленном флаге в <b>ItemFlags</b> и может принимать следующие значения:<ul>
-<li>WPN_arrow
-<li>WPN_axe
-<li>WPN_bolt
-<li>WPN_dagger
-<li>WPN_spear
-<li>WPN_stone
+<tr><td>Shell<td>string<td>Идентификатор снаряда для отображения при стрельбе/метании соответствует имени mdf-файла в каталоге <b>magic</b>. Это поле присутствует только при установленном флаге в <b>ItemFlags</b>.
 <tr><td>Level<td>dword<td>Требование к уровню
 <tr><td>Strenght<td>dword<td>Требование к силе
 <tr><td>Wisdom<td>dword<td>Требование к мудрости
