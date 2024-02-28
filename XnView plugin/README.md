@@ -1,1 +1,1 @@
-Плагин к <a href=https://www.xnview.com>XnView</a> для загрузки/сохранения спрайтов в формате <b>csx</b>. Для установки нужно просто скопировать usr-файл в каталог <b>plugins</b>. Поддерживается только 32-битная версия XnView.
+Плагин к <a href=https://www.xnview.com>XnView</a> для загрузки/сохранения спрайтов в формате <b>csx</b>. Для установки нужно просто скопировать <a href=https://github.com/fersatgit/Goldenland-2-Cold-Heaven/releases/download/1.0/Xcsx.usr>usr-файл</a> в каталог <b>plugins</b>. Поддерживается только 32-битная версия XnView.
