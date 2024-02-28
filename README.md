@@ -4,26 +4,26 @@
 <h3>string</h3>
 Все строковые значения представлены этим типом. В файлах могут встречаться строки нулевой длины.
 <table><tr><th>Имя поля<th>тип<th>описание
-<tr><td>len<td>dword<td>Длина строки
-<tr><td>text<td>byte<td>Текст в кодировке win-1251, если поле <b>len</b> равно 0, то поле <b>text</b> отсутствует
+<tr><td>Len<td>dword<td>Длина строки
+<tr><td>Text<td>byte<td>Текст в кодировке win-1251, если поле <b>len</b> равно 0, то поле <b>text</b> отсутствует
 </table>
 <h3>time</h3>
 В этом типе представлено время действия эффектов. Итоговое значение расчитывается по формуле  <b>hi*(hi<2?30:60)+lo</b>.
 <table><tr><th>Имя поля<th>тип<th>описание
-<tr><td>hi<td>byte<td>Старший байт
-<tr><td>lo<td>byte<td>Младший байт
+<tr><td>Hi<td>byte<td>Старший байт
+<tr><td>Lo<td>byte<td>Младший байт
 </table></details>
 
 <details><summary>PAK (package)</summary>
 Файлы с расширением <b>pak</b> - это игровые архивы
 <table><tr><th>Имя поля<th>тип<th>описание
-<tr><td>magic<td>qword<td>Должно содержать текст "PAK " и 4 нулевых байта
-<tr><td>fileCount<td>dword<td>Количество файлов в архиве
+<tr><td>Magic<td>qword<td>Должно содержать текст "PAK " и 4 нулевых байта
+<tr><td>FileCount<td>dword<td>Количество файлов в архиве
 <tr><td>FAT<td>массив структур<td>Файловая таблица. Массив структур
 <table><tr><th>Имя поля<th>тип<th>описание
-<tr><td>name<td>string<td>Имя файла
-<tr><td>size<td>dword<td>Размер файла в архиве (сжатый размер)
-<tr><td>offset<td>dword<td>Смещение от начала файла
+<tr><td>Name<td>string<td>Имя файла
+<tr><td>Size<td>dword<td>Размер файла в архиве (сжатый размер)
+<tr><td>Offset<td>dword<td>Смещение от начала файла
 </table>
 </table>
 Поле <b>offset</b> указывает на такую структуру
@@ -32,14 +32,26 @@
 <tr><td>data<td>-<td>Сжатые либо несжатые данные
 </table></details>
 
+<details><summary>CSX</summary>
+В файлах с расширением <b>csx</b> хранятся спрайты с палитрой.
+<table><tr><th>Имя поля<th>тип<th>описание
+<tr><td>ColorCount<td>dword<td>Количество цветов в палитре
+<tr><td>TransparentColor<td>dword<td>Прозрачный цвет в формате BGR
+<tr><td>Palette<td>dword<td>Плаитра в формате BGR (массив <b>dword</b>, длиной в <b>ColorCount</b> элементов). 
+<tr><td>Width<td>dword<td>Ширина изображения
+<tr><td>Height<td>dword<td>Высота изображения
+<tr><td>Offsets<td>dword<td>Массив смещений строк в массиве <b>CompressedData</b>. В массиве содержится <b>Height+1</b> элементов, последний элемент равен размеру массива <b>CompressedData</b>.
+<tr><td>CompressedData<td>-<td>Данные, сжатые по алгоритму <b>RLE</b> (подробности смотри <a href=https://github.com/fersatgit/Goldenland-2-Cold-Heaven/blob/main/XnView%20plugin/Xcsx.dpr>здесь</a>)
+</table></details>
+
 <details><summary>SDB (string data base)</summary>
 В файлах с расширением <b>sdb</b> хранятся пары значений индекс-строка. Если первые 4 байта не содержат текст "SDB ", то файл зашифрован (к текстовым данным применено исключающее или со значением 0xAA).
 <table><tr><th>Имя поля<th>тип<th>описание
-<tr><td>signature<td>dword<td>Должно содержать текст "SDB ", если это не так - поле отсутствует
-<tr><td>data<td>массив структур<td>Содержит пары значений "идентификатор - строка"
+<tr><td>Signature<td>dword<td>Должно содержать текст "SDB ", если это не так - поле отсутствует
+<tr><td>Data<td>массив структур<td>Содержит пары значений "идентификатор - строка"
 <table><tr><th>Имя поля<th>тип<th>описание
-<tr><td>id<td>dword<td>Идентификатор строки
-<tr><td>value<td>string<td>Непосредственно строка. Если поле <b>signature</b> отсутствует в файле, то поле <b>text</b> структуры <b>string</b> поксорено ключом <b>0XAA</b> .
+<tr><td>Id<td>dword<td>Идентификатор строки
+<tr><td>Value<td>string<td>Непосредственно строка. Если поле <b>signature</b> отсутствует в файле, то поле <b>text</b> структуры <b>string</b> поксорено ключом <b>0XAA</b> .
 </table></table></details>
 
 <details><summary>ITM (item)</summary>
