@@ -267,130 +267,129 @@
 <tr><td>ch_max_skill_value<td>Макксимальное значение навыков<td>Задаёт предел развития навыков.
 <tr><td>ch_max_primary_value<td>Макксимальное значение характеристик<td>Задаёт предел развития характеристик.
 <tr><td>ch_money<td>-<td>Отображает текущее количество денег у главного героя.
-<tr><td>ch_skip_random_meet<td>
-<tr><td>ch_ZorkijGlaz<td>
+<tr><td>ch_skip_random_meet<td><td>
+<tr><td>ch_ZorkijGlaz<td><td>
 </table></ul></details>
 
 
 <details><summary>Клиент (префикс cl - client)</summary><ul><table>
 <tr><th>Команда<th>Параметры<th>Описание
 <tr><td>cl_bpd<td>1 или 0<td>Bytes per datagram
-<tr><td>cl_bpd_limit_to_show<td>
+<tr><td>cl_bpd_limit_to_show<td><td>
 <tr><td>cl_bpf<td>1 или 0<td>Bytes per frame
-<tr><td>cl_bpf_limit_to_show<td>
-<tr><td>cl_console_time<td>
-<tr><td>cl_GXFps<td>
-<tr><td>cl_mini_console_lines<td>
-<tr><td>cl_reconnecttime
-<tr><td>cl_timeout
-<tr><td>cl_traffic<td>
+<tr><td>cl_bpf_limit_to_show<td><td>
+<tr><td>cl_console_time<td><td>
+<tr><td>cl_GXFps<td><td>
+<tr><td>cl_mini_console_lines<td><td>
+<tr><td>cl_reconnecttime<td><td>
+<tr><td>cl_timeout<td><td>
+<tr><td>cl_traffic<td><td>
 <tr><td>cl_username<td>-<td>Отобразить имя главного героя.
-
-<tr><td>cl_skinname<td>
-<tr><td>cl_spawn<td>
+<tr><td>cl_skinname<td><td>
+<tr><td>cl_spawn<td><td>
 </table></ul></details>
 
 
 <details><summary>Отладка (префикс d - debug)</summary><ul><table>
 <tr><th>Команда<th>Параметры<th>Описание
 <tr><td>d_console<td>1 или 0<td>Включить или выключить консоль.
-<tr><td>d_up_window<td>
-<tr><td>d_log_person<td>
+<tr><td>d_up_window<td><td>
+<tr><td>d_log_person<td><td>
 <tr><td>d_location<td>-<td>Отобразить название текущей локации.
-<tr><td>d_test_magic<td>
+<tr><td>d_test_magic<td><td>
 <tr><td>d_info_persons<td>1 или 0<td>Включить или выключить отображение технической информации о персонажах.
 <tr><td>d_info_role<td>1 или 0<td>Включить или выключить отображение характеристик персонажей.
 <tr><td>d_info_items<td>1 или 0<td>Включить или выключить отображение количества предметов на карте.
 <tr><td>d_info_world<td>1 или 0<td>Включить или выключить отображение названия карты и коодинат мыши.
-<tr><td>d_info_tbsynchr<td>
+<tr><td>d_info_tbsynchr<td><td>
 <tr><td>d_info_global_map<td>1 или 0<td>Включить или выключить отображение информации на глобальной карте (id зон и персонажей, вероятность встречи, координаты).
 <tr><td>d_info_phrases<td>1 или 0<td>Включить или выключить отображение id фраз в диалогах.
-<tr><td>d_go_to_cast<td>
-<tr><td>d_test<td>
-<tr><td>d_color<td>
-<tr><td>d_spritex_holder<td>
-<tr><td>d_sound_shaders<td>
-<tr><td>d_user_function<td>
-<tr><td>d_persons_path<td>
-<tr><td>d_persons<td>
-<tr><td>d_triggers<td>
-<tr><td>d_magic<td>
-<tr><td>d_net<td>
-<tr><td>d_history_log<td>
-<tr><td>d_random_generate<td>
-<tr><td>d_area_load<td>
-<tr><td>d_create_dialogs_cache<td>
-<tr><td>d_minimize_idle<td>
-<tr><td>d_update_idle<td>
-<tr><td>d_hooks<td>
+<tr><td>d_go_to_cast<td><td>
+<tr><td>d_test<td><td>
+<tr><td>d_color<td><td>
+<tr><td>d_spritex_holder<td><td>
+<tr><td>d_sound_shaders<td><td>
+<tr><td>d_user_function<td><td>
+<tr><td>d_persons_path<td><td>
+<tr><td>d_persons<td><td>
+<tr><td>d_triggers<td><td>
+<tr><td>d_magic<td><td>
+<tr><td>d_net<td><td>
+<tr><td>d_history_log<td><td>
+<tr><td>d_random_generate<td><td>
+<tr><td>d_area_load<td><td>
+<tr><td>d_create_dialogs_cache<td><td>
+<tr><td>d_minimize_idle<td><td>
+<tr><td>d_update_idle<td><td>
+<tr><td>d_hooks<td><td>
 </table></ul></details>
 
 
 <details><summary>Глобальные переменные (префикс gv - global variables)</summary><ul><table>
 <tr><th>Команда<th>Параметры<th>Описание
-<tr><td>gv_addon<td>
-<tr><td>gv_debug_dialog<td>
+<tr><td>gv_addon<td><td>
+<tr><td>gv_debug_dialog<td><td>
 <tr><td>gv_Title<td>-<td>Отобразить версию игры
-<tr><td>gv_double_click_speed<td>
-<tr><td>gv_mouse_speed<td>
-<tr><td>gv_MouseAutoRepeatFirstDelay<td>
-<tr><td>gv_MouseAutoRepeatNextDelay<td>
-<tr><td>gv_OnHintDelay<td>
-<tr><td>gv_OnFastHintDelay<td>
+<tr><td>gv_double_click_speed<td><td>
+<tr><td>gv_mouse_speed<td><td>
+<tr><td>gv_MouseAutoRepeatFirstDelay<td><td>
+<tr><td>gv_MouseAutoRepeatNextDelay<td><td>
+<tr><td>gv_OnHintDelay<td><td>
+<tr><td>gv_OnFastHintDelay<td><td>
 <tr><td>gv_day_night<td>1 или 0<td>Установить время суток 0 - день, 1 - ночь.
-<tr><td>gv_weather<td>
-<tr><td>gv_Weather_min_delay<td>
-<tr><td>gv_Weather_max_delay<td>
-<tr><td>gv_blood<td>
-<tr><td>gv_cgc_sync<td>
-<tr><td>gv_item_transaction_timeout<td>
-<tr><td>gv_item_using_timeout<td>
-<tr><td>gv_scroll_speed<td>
-<tr><td>gv_minimap_scroll_speed<td>
-<tr><td>gv_change_location<td>
-<tr><td>gv_clip_path_calc<td>
-<tr><td>gv_loading_jpg<td>
-<tr><td>gv_in_game<td>
-<tr><td>gv_is_multiplayer<td>
-<tr><td>gv_tcpip_ok<td>
+<tr><td>gv_weather<td><td>
+<tr><td>gv_Weather_min_delay<td><td>
+<tr><td>gv_Weather_max_delay<td><td>
+<tr><td>gv_blood<td><td>
+<tr><td>gv_cgc_sync<td><td>
+<tr><td>gv_item_transaction_timeout<td><td>
+<tr><td>gv_item_using_timeout<td><td>
+<tr><td>gv_scroll_speed<td><td>
+<tr><td>gv_minimap_scroll_speed<td><td>
+<tr><td>gv_change_location<td><td>
+<tr><td>gv_clip_path_calc<td><td>
+<tr><td>gv_loading_jpg<td><td>
+<tr><td>gv_in_game<td><td>
+<tr><td>gv_is_multiplayer<td><td>
+<tr><td>gv_tcpip_ok<td><td>
 <tr><td>gv_free_camera<td>1 или 0<td>Включить или выключить привязку камеры к главному герою.
-<tr><td>gv_dialog_hacker<td>
+<tr><td>gv_dialog_hacker<td><td>
 <tr><td>gv_minimap_alpha<td>от 0.0 до 1.0<td>Установить значение прозрачности миникарты.
 <tr><td>gv_minimap_step_scale<td>
 <tr><td>gv_minimap_show<td>1 или 0<td>Включить или выключить отображение миникарты.
-<tr><td>gv_minimap_detail<td>
-<tr><td>gv_minimap_smooth_scroll<td>
-<tr><td>gv_seconds_per_turn<td>
-<tr><td>gv_relax_time_factor<td>
-<tr><td>gv_SkillPtsPerLevel<td>
-<tr><td>gv_HeroPtsPerLevel<td>
-<tr><td>gv_titles_speed<td>
-<tr><td>gv_disable_scroll<td>
+<tr><td>gv_minimap_detail<td><td>
+<tr><td>gv_minimap_smooth_scroll<td><td>
+<tr><td>gv_seconds_per_turn<td><td>
+<tr><td>gv_relax_time_factor<td><td>
+<tr><td>gv_SkillPtsPerLevel<td><td>
+<tr><td>gv_HeroPtsPerLevel<td><td>
+<tr><td>gv_titles_speed<td><td>
+<tr><td>gv_disable_scroll<td><td>
 <tr><td>gv_gm_step_delay<td>Задержка в миллисекундах<td>Установить задержку между кадрами на глобальной карте.
 <tr><td>gv_location_start<td>LocationId<td>Задать стартовую локацию при начале новой игры. Id локации можно подсмотреть в каталоге "levels\single". Эта команда работает только из ini-файла.
-<tr><td>gv_items_regenerate_interval<td>
-<tr><td>gv_gm_scroll_delay<td>
-<tr><td>gv_random_location<td>
+<tr><td>gv_items_regenerate_interval<td><td>
+<tr><td>gv_gm_scroll_delay<td><td>
+<tr><td>gv_random_location<td><td>
 <tr><td>gv_pause<td>1 или 0<td>Включить или выключить паузу.
-<tr><td>gv_pause_between_turn
-<tr><td>gv_pause_start_round
-<tr><td>gv_person_tips<td>
-<tr><td>gv_status_bar_show_time<td>
-<tr><td>gv_status_bar_history_depth<td>
-<tr><td>gv_status_bar_show_history<td>
-<tr><td>gv_sound_effect_vol<td>
-<tr><td>gv_sound_speak_vol<td>
-<tr><td>gv_sound_music_vol<td>
-<tr><td>gv_sound_eax<td>
-<tr><td>gv_sound_fading<td>
+<tr><td>gv_pause_between_turn<td><td>
+<tr><td>gv_pause_start_round<td><td>
+<tr><td>gv_person_tips<td><td>
+<tr><td>gv_status_bar_show_time<td><td>
+<tr><td>gv_status_bar_history_depth<td><td>
+<tr><td>gv_status_bar_show_history<td><td>
+<tr><td>gv_sound_effect_vol<td><td>
+<tr><td>gv_sound_speak_vol<td><td>
+<tr><td>gv_sound_music_vol<td><td>
+<tr><td>gv_sound_eax<td><td>
+<tr><td>gv_sound_fading<td><td>
 <tr><td>gv_run_always<td>1 или 0<td>Включить или выключить постоянный бег для главного героя.
-<tr><td>gv_hints_show<td>
+<tr><td>gv_hints_show<td><td>
 <tr><td>gv_anim_speed<td>Положительное число<td>Позволяет замедлить анимацию (чем больше значение параметра тем медленнее анимация).
-<tr><td>gv_location_cache<td>
-<tr><td>gv_meet_offset<td>
-<tr><td>gv_monster_min_dist<td>
-<tr><td>gv_monster_max_dist<td>
-<tr><td>gv_exotic_items_transfer<td>
+<tr><td>gv_location_cache<td><td>
+<tr><td>gv_meet_offset<td><td>
+<tr><td>gv_monster_min_dist<td><td>
+<tr><td>gv_monster_max_dist<td><td>
+<tr><td>gv_exotic_items_transfer<td><td>
 <tr><td>gv_map_walker<td>1 или 0<td>Включить или выключить безопасное путешествие по карте.
 <tr><td>gv_skip_logo<td>1 или 0<td>Включить или выключить вступительный видеоролик.
 </table></ul></details>
@@ -398,47 +397,47 @@
 
 <details><summary>Сеть (префикс net - network)</summary><ul><table>
 <tr><th>Команда<th>Параметры<th>Описание
-<tr><td>net_hostport<td>
-<tr><td>net_ip<td>
-<tr><td>net_stress_delaylocal<td>
-<tr><td>net_stress<td>
+<tr><td>net_hostport<td><td>
+<tr><td>net_ip<td><td>
+<tr><td>net_stress_delaylocal<td><td>
+<tr><td>net_stress<td><td>
 </table></ul></details>
 
 
 <details><summary>префикс r</summary><ul><table>
 <tr><th>Команда<th>Параметры<th>Описание
-<tr><td>r_resolution<td>
+<tr><td>r_resolution<td><td>
 <tr><td>r_windowed<td>1 или 0<td>Включить или выключить оконный режим (только из ini-файла).
-<tr><td>r_masks_show<td>
+<tr><td>r_masks_show<td><td>
 <tr><td>r_masks_mode<td>1 или 0<td>Включить или выключить полупрозрачность объектов, закрывающих персонажа.
-<tr><td>r_baselines_show<td>
-<tr><td>r_masked_show<td>
+<tr><td>r_baselines_show<td><td>
+<tr><td>r_masked_show<td><td>
 <tr><td>r_senses_show<td>1 или 0<td>Включить или выключить отображение "чувств" персонажей (видимость и слышимость).
 <tr><td>r_senses_limits_show<td>1 или 0<td>Включить или выключить отображение полей зрения и слуха персонажей.
 <tr><td>r_person_rect_show<td>1 или 0<td>Включить или выключить прозрачность дляя спрайтов персонажей.
 <tr><td>r_shadow_rect_show<td>1 или 0<td>Включить или выключить прозрачность дляя спрайтов теней.
-<tr><td>r_noway_show<td>
-<tr><td>r_noview_show<td>
-<tr><td>r_triggers_show<td>
-<tr><td>r_gamma<td>
-<tr><td>r_antialiasing<td>
-<tr><td>r_max_texture_width<td>
+<tr><td>r_noway_show<td><td>
+<tr><td>r_noview_show<td><td>
+<tr><td>r_triggers_show<td><td>
+<tr><td>r_gamma<td><td>
+<tr><td>r_antialiasing<td><td>
+<tr><td>r_max_texture_width<td><td>
 <tr><td>r_fps_show<td>1 или 0<td>Включить или выключить отображение FPS.
 </table></ul></details>
 
 
 <details><summary>префикс sv</summary><ul><table>
 <tr><th>Команда<th>Параметры<th>Описание
-<tr><td>sv_hostname<td>
+<tr><td>sv_hostname<td><td>
 <tr><td>sv_cheats<td>1 или 0<td>Включить или выключить команды с префиксом "ch_".
-<tr><td>sv_demo<td>
+<tr><td>sv_demo<td><td>
 <tr><td>sv_start_rec_demo<td>
-<tr><td>sv_game_speed<td>
+<tr><td>sv_game_speed<td><td>
 <tr><td>sv_fps<td>кадры в секунду<td>Установить FPS для анимаций.
-<tr><td>sv_localhost<td>
-<tr><td>sv_maxclients<td>
-<tr><td>sv_dedicated<td>
-<tr><td>sv_multiplayer<td>
+<tr><td>sv_localhost<td><td>
+<tr><td>sv_maxclients<td><td>
+<tr><td>sv_dedicated<td><td>
+<tr><td>sv_multiplayer<td><td>
 </table></ul></details>
 
 
