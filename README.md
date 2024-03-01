@@ -355,7 +355,7 @@
 <tr><td>gv_free_camera<td>1 или 0<td>Включить или выключить привязку камеры к главному герою.
 <tr><td>gv_dialog_hacker<td><td>
 <tr><td>gv_minimap_alpha<td>от 0.0 до 1.0<td>Установить значение прозрачности миникарты.
-<tr><td>gv_minimap_step_scale<td>
+<tr><td>gv_minimap_step_scale<td><td>
 <tr><td>gv_minimap_show<td>1 или 0<td>Включить или выключить отображение миникарты.
 <tr><td>gv_minimap_detail<td><td>
 <tr><td>gv_minimap_smooth_scroll<td><td>
@@ -431,7 +431,7 @@
 <tr><td>sv_hostname<td><td>
 <tr><td>sv_cheats<td>1 или 0<td>Включить или выключить команды с префиксом "ch_".
 <tr><td>sv_demo<td><td>
-<tr><td>sv_start_rec_demo<td>
+<tr><td>sv_start_rec_demo<td><td>
 <tr><td>sv_game_speed<td><td>
 <tr><td>sv_fps<td>кадры в секунду<td>Установить FPS для анимаций.
 <tr><td>sv_localhost<td><td>
@@ -648,26 +648,26 @@
 <tr><th>Команда<th>Параметры<th>Описание
 <tr><td>add_ally<td>-<td>
 <tr><td>add_person<td>-<td>
-<tr><td>ai_see<td>
-<tr><td>ai_think<td>
+<tr><td>ai_see<td><td>
+<tr><td>ai_think<td><td>
 <tr><td>ap_set_route<td>-<td>
 <tr><td>attach_to_person<td>-<td>
 <tr><td>cache_all_dialogs<td>-<td>
-<tr><td>connect
+<tr><td>connect<td><td>
 <tr><td>del_person<td>PersonId<td>Удалить персонажа. <b>PersonId</b> можно узнать командой <b>d_info_persons</b>.
-<tr><td>disconnect
+<tr><td>disconnect<td><td>
 <tr><td>distance_attack<td>-<td>
 <tr><td>exit<td>-<td>Выход из игры
 <tr><td>fire_start<td>-<td>
 <tr><td>fire_stop<td>-<td>
 <tr><td>game_save<td>номер слота<td>Сохраняет игру в указаном слоте.
 <tr><td>kill_person<td>PersonId<td>Убить персонажа. <b>PersonId</b> можно узнать командой <b>d_info_persons</b>.
-<tr><td>restart
+<tr><td>restart<td><td>
 <tr><td>set_tb_mode<td>-<td>Включить пошаговый режим.
 <tr><td>set_speed<td>модификатор задержки<td>Устанавливает модификатор задержки между кадрами анимации (вещественное число). Значение -1 полностью убирает задержку (максимальная скорость анимации), -0.5 ускоряет анимацию в 2 раза, 1 замедляет анимацию в 2 раза и т.д.
 <tr><td>transition<td>LocationId<td>Переместить главного героя на указанную локацию. Id локации можно подсмотреть в каталоге "levels\single".
 <tr><td>use_all_magic<td>-<td>Добавить все заклинания в книгу заклинаний.
-<tr><td>zombie_time<td>
+<tr><td>zombie_time<td><td>
 </table></ul></details>
 
 
