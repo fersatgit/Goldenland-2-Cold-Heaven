@@ -229,7 +229,6 @@
 <li>Эффект действует только ночью
 <li value=4>Поле <b>Duration</b> содержит действительное значение
 <li>Поле <b>Delay</b> содержит действительное значение
-<li>Поле <b>Delay</b> содержит действительное значение
 <li>Поле <b>Amount</b> содержит непосредственное значение
 <li>Поле <b>Amount</b> содержит значение в процентах
 <li>Предназначение не известно. Этот флаг встречается на эффектах в предметах для NPC
@@ -404,7 +403,7 @@
 </table></ul></details>
 
 
-<details><summary>префикс r</summary><ul><table>
+<details><summary>Рендер (префикс r - render)</summary><ul><table>
 <tr><th>Команда<th>Параметры<th>Описание
 <tr><td>r_resolution<td><td>
 <tr><td>r_windowed<td>1 или 0<td>Включить или выключить оконный режим (только из ini-файла).
@@ -426,7 +425,7 @@
 </table></ul></details>
 
 
-<details><summary>префикс sv</summary><ul><table>
+<details><summary>Сервер (префикс sv - server)</summary><ul><table>
 <tr><th>Команда<th>Параметры<th>Описание
 <tr><td>sv_hostname<td><td>
 <tr><td>sv_cheats<td>1 или 0<td>Включить или выключить команды с префиксом "ch_".
