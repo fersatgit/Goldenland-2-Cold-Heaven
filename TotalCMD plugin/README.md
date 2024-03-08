@@ -1,4 +1,4 @@
-Плагин для Total Commander/Universal Viewer позволяет просматривать файлы itm и sdb, а также добавляет превью для itm-файлов. <a href=https://github.com/fersatgit/Goldenland-2-Cold-Heaven/releases/download/TotalCmd/Goldenland2.wlx>Скачать wlx</a>.
+Плагин для <a href=https://www.ghisler.com>Total Commander</a>/<a href=https://uvviewsoft.com/uviewer>Universal Viewer</a> позволяет просматривать файлы itm и sdb, а также добавляет превью для itm-файлов. <a href=https://github.com/fersatgit/Goldenland-2-Cold-Heaven/releases/download/TotalCmd/Goldenland2.wlx>Скачать wlx</a>.
 <p><img src=1.png><p>
 Для правильной работы плагина необходимо распаковать все архивы с сохранением структуры. Пример: для загрузки файла "D:\Goldenland\items\data\764.itm" плагину также понадобятся эти файлы:<ul>
 <li>D:\Goldenland\items\data\..\..\sdb\items\descriptions.sdb
