@@ -7,7 +7,4 @@
 <li>..\..\sdb\items\tech_names.sdb
 <li>..\..\sdb\magic\magictechnames.sdb
 <li>..\..\sdb\magic\magiclitnames.sdb
-<li>..\..\engineres\interface\magic_book\magic_icons\cast_na\gods_paliza_peruna.bmp
-<li>..\res\puppet\POSOHI\jelezo\01.bmp
-<li>..\res\T_CROSIER\Jelezo\01.bmp
 <li>..\..\engineres\hero_generator\main.bmp
